@@ -23,7 +23,6 @@ var movies = [
    {name:"جائنا البيان التالي",caption:"انتو ازاي تدخلوا علي الناس كدة في بيوت الدعارة"},
    {name:"اللمبي",caption:"يا بت يا نوسي انا بحبك يا بت"},
    {name:"بوحا",caption:"تصدق سلخت قبل ما ادبح "},
-   {name:"اللمبي",caption:"يا بت يا نوسي انا بحبك يا بت"},
    {name:"حرب كرموز",caption:"صاحبتي your mather يا جوني"},
    {name:"التجربة الدنماركية",caption:"i love kanaba"},
    {name:"امير البحار",caption:"زبدة دايت ...انتي عايزة بقرة دايت"},
@@ -38,7 +37,6 @@ var movies = [
    {name:"ظرف طارق",caption:"واحد مصري هيشجع ايه ؟ نيجيريا طبعا"},
     {name:"قصة الحي الشعبي",caption:"تايه هو ؟ باينه تايه ؟ ايوة تايييه تاييه"},
 ]
-
 
 document.getElementById('wrong').style.visibility = 'hidden';
 document.getElementById('success').style.visibility = 'hidden';
@@ -60,8 +58,9 @@ function randomWord() {
 }
 
 function generateButtons() {
+
   let buttonsHTML = 'دجحخهعغفئقثصضشسيبلاتنمكطظ زوةىرؤءذ'.split('').map(letter =>
-    `
+   `
       <button style="weghit:auto;"
         class="btn btn-lg btn-warning m-1"
         id='` + letter + `'

@@ -16,8 +16,13 @@
          background-color: black
         }
          .up{
-          color: #ffcc00;
+
+          color:#ffcc00;
           text-align: center;
+          letter-spacing: 3px;
+          font-size: 50px;
+          text-decoration: line-through;
+          text-decoration-color: rgb(255, 255, 255);
          }
          .osc
          {
@@ -26,10 +31,11 @@
           
          }
          .movies_caption {
-         
+
+          border: 1px solid #ffffff;
           font-size: large;
-          color: white;
-          border: 1px solid white;
+          color:#ffcc00;
+          /* border: 1px solid #ffcc00; */
           border-radius: 10px;
           padding: 10px;
           margin-left:35% ; 
@@ -57,10 +63,10 @@
          
          .info
          {
-          color:#ffcc00;
+          color:#ffffff;
           text-align:center;
-          margin-top: 10px;
-          font-size: 18px;
+          margin-top: 5px;
+          font-size: 15px;
          }
          .left-part{
            margin-left: 0% ;
@@ -86,7 +92,6 @@
            width:100%;
            height: 100%;
            margin-left:5%;
-           margin-top:5%;
            padding:0 ;
 
          }
@@ -98,15 +103,27 @@
           margin-left:15%;
           margin-top:3%;
           width:75%;
+          height:30%
+
+         }
+         #keyboard button{
+          padding:8px ;
+
 
          }
          @media only screen and (max-width: 500px) {
          /* For desktop: */
          #keyboard button{
-          font-size: 18px;
+          font-size: 15px;
           padding:2px ;
 
          }
+         .up {
+          font-size:50px;
+          text-decoration: line-through;
+          text-decoration-color: rgb(255, 255, 255);
+         }
+
          #keyboard {
           font-size: 18px;
           margin-left:15%;
@@ -114,15 +131,19 @@
           width:75%;
 
          }
+
+         .container{
+           margin-left:0;
+         }
          .pic img{
           /* width:100%; */
-           height:200px;
+           height:170px;
+
          }
          #wrong-guesses{
           text-align:center;
          }
          .movies_caption {
-         
          font-size:15px;
          padding: 4px;
         }
@@ -135,7 +156,9 @@
           <body>
                 <div class="container">
                               <div class="osc">
-                                  <h1 class="up" >AFSHAT</h1>
+
+                                  <div class="up" >AFSHAT</div>
+
                                   <!-- <h1 >OSC</h1> -->
                                   <p class="info">
                                     : خمن اسم الفيلم الي اتقال فيه الجملة دي
