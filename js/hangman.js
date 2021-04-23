@@ -60,7 +60,7 @@ function randomWord() {
 }
 
 function generateButtons() {
-  let buttonsHTML = 'دجحخهعغفقثصضشسيبلاتنمكطظ زوةىرؤءذ'.split('').map(letter =>
+  let buttonsHTML = 'دجحخهعغفئقثصضشسيبلاتنمكطظ زوةىرؤءذ'.split('').map(letter =>
     `
       <button style="weghit:auto;"
         class="btn btn-lg btn-warning m-1"
