@@ -75,7 +75,7 @@ function updateHangmanPicture() {
 
 function checkIfGameWon() {
   if (wordStatus === movies_name) {
-    document.getElementById('keyboard').innerHTML = 'صح يولا يا زعييم ';
+    document.getElementById('keyboard').innerHTML = ' مين اشطر كتكوت ناو';
     document.getElementById('success').style.visibility = 'visible';
   var x=  document.getElementById('suc');
 
