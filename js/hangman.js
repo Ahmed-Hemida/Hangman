@@ -3,7 +3,7 @@ var movies = [
   {name:"الالماني",caption:"عندكوا شامبو ؟"},
   {name:"الناظر",caption:"ونسمع سلام لشهادة الوفاه "},
   {name:"بوشكاش",caption:"الواد بيمشي ؏ ايديه و رجلييه ولا اييه"},
-  {name:"بوشكاش",caption:" الشجههه بتوللع n/ = عااارف عااارف"},
+  {name:"بوشكاش",caption:" الشجه بتولع عااارف عااارف"},
   {name:"بوشكاش",caption:"انت سلعاااوي انت سلعاااوي"},
   {name:"جائنا البيان التالي",caption:"إلهي يحلبوك مع جاموسة هبلة "},
   {name:"ظرف طارق",caption:"كنت اخترت مكرونة اسهل "},
@@ -17,7 +17,7 @@ var movies = [
    {name:"اللمبي",caption:"يا بت يا نوسي انا بحبك يا بت"},
    {name:"بوحا",caption:"تصدق سلخت قبل ما ادبح "},
    {name:"اللمبي",caption:"يا بت يا نوسي انا بحبك يا بت"},
-   {name:"حرب كرموز",caption:"جوني  your mather صاحبتي"},
+   {name:"حرب كرموز",caption:"صاحبتي your mather يا جوني"},
 ]
 
 document.getElementById('wrong').style.visibility = 'hidden';
