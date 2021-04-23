@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+
+  <!-- Bootstrap 4 CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+  <title>AFSHAT OSC</title>
+        <style>
+        body{
+         background-color: black
+        }
+         .up{
+          color: #ffcc00;
+          text-align: center;
+          
+          
+         }
+         .osc
+         {
+          text-align: center;
+          color: white;
+          
+         }
+         .movies_caption {
+         
+          font-size: large;
+          color: white;
+          border: 1px solid white;
+          border-radius: 10px;
+          padding: 10px;
+          margin-left:35% ; 
+          text-align:center;
+          width:30%;
+         }
+         #keyboard
+         {
+          border: 1px solid white;
+          border-radius: 10px;
+          padding: 10px;
+          color: white;
+          width: auto;
+         }
+         #wordSpotlight
+         {
+            color: white;
+            margin: 20px
+         }
+         .pic{
+         margin-left:5%;
+         width:10%;
+         height:10%;
+         }
+         
+         .info
+         {
+          color:#ffcc00;
+          text-align:center;
+          margin-top: 10px;
+          font-size: 18px;
+          
+         }
+         .left-part{
+           margin-left: 0% ;
+           margin-top: 30% ;
+           width:25%;
+         }
+         .left-part video{
+           width:30%;
+           height: 25%;
+          
+         }
+         .right-part{
+           margin-right: 0% ;
+           margin-top: 30% ;
+           width:25%;
+         
+         }
+         .right-part video{
+           width: 20%;
+             height: 50%;
+         }
+         .container{
+           width:100%;
+           height: 100%;
+           margin-left:10%;
+           margin-top:5%;
+           padding:0 ;
+
+         }
+         
+        
+        </style>
+    </head>
+          <body>
+                <div class="container">
+                              <div class="osc">
+                                  <h1 class="up" >AFSHAT</h1>
+                                  <!-- <h1 >OSC</h1> -->
+                                  <p class="info">
+                                    : خمن اسم الفيلم الي اتقال فيه الجملة دي
+                                  </p>
+                                   
+                               </div>
+                                <div id="movies_caption" class="movies_caption">
+                                          movies_caption
+                                </div>
+                           
+                                        <div class="text-right" style="color:#ffcc00 ;">Wrong Guesses:
+                                            <span id='mistakes' style="color: white ">  0  </span> 
+                                            of 
+                                            <span id='maxWrong'style="color:white"> </span>
+                                        </div> 
+                                        <div class="ml-5">
+                                            <span class="left-part" id="wrong">
+                                                <video class=""id="wr" >
+                                                    <source src="video/4.mp4" type="video/mp4">
+                                                </video>
+                                            </span>
+                                            <span class="pic ">
+                                                    <img id='hangmanPic' src="./images/0.jpg" alt="">
+                                            </span>
+                                            
+                                            <span class="right-part" id="success">
+                                              <audio class=""id="suc">
+                                                  <source src="video/win.mp4" type="video/mp4">
+                                              </audio>
+                                            </span>
+                                      </div>
+                                    <div class="text-center">
+                                    <p id="wordSpotlight">The word to be guessed goes here</p>
+                                      <button class="btn btn-light " onClick="reset()" >االي بعده </button>
+                                  </div>
+                              <div id="keyboard" class="text-center m-5">
+
+                              </div>
+                </div>    
+          </body>
+          <script src='./js/hangman.js'></script>
+    </html>
