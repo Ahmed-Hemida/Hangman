@@ -89,7 +89,7 @@ function checkIfGameWon() {
 function checkIfGameLost() {
   if (mistakes === maxWrong) {
     document.getElementById('wordSpotlight').innerHTML =' اسم الفيلم ' + movies_name ;
-    document.getElementById('keyboard').innerHTML = ' غلط  حاول تاني';
+    document.getElementById('keyboard').innerHTML = 'خلاص انا كده انطفيت';
 
   }
   var x=document.getElementById('wr');
