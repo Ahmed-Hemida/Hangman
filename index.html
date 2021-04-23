@@ -63,7 +63,6 @@
           text-align:center;
           margin-top: 10px;
           font-size: 18px;
-          
          }
          .left-part{
            margin-left: 0% ;
@@ -93,6 +92,9 @@
            padding:0 ;
 
          }
+         #wrong-guesses{
+          text-align:right;
+         }
 
          @media only screen and (max-width: 500px) {
          /* For desktop: */
@@ -104,6 +106,9 @@
          .pic img{
           /* width:100%; */
            height:200px;
+         }
+         #wrong-guesses{
+          text-align:center;
          }
          
         }
@@ -125,7 +130,7 @@
                                           movies_caption
                                 </div>
                            
-                                        <div class="text-right" style="color:#ffcc00 ;">Wrong Guesses:
+                                        <div  id="wrong-guesses" style="color:#ffcc00 ;">Wrong Guesses:
                                             <span id='mistakes' style="color: white ">  0  </span> 
                                             of 
                                             <span id='maxWrong'style="color:white"> </span>
